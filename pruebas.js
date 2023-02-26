@@ -1,5 +1,5 @@
 setInterval(()=>{
-    const tiempo =document.querySelector("tiempo");
+    const tiempo =document.querySelector("#tiempo");
     let date = new date();
     let hora = date.getHours();
     let minutos = date.getMinutes();
